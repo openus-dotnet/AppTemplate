@@ -1,4 +1,4 @@
-﻿namespace Openus.AppPath
+﻿namespace Openus.[APP_NAME].AppPath
 {
     public static class AppData
     {
