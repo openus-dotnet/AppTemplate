@@ -9,7 +9,7 @@
     <Authors>elecbug</Authors>
     <Company>Openus.NET</Company>
     <Copyright>Openus.NET</Copyright>
-    <RepositoryUrl>https://github.com/openus-dotnet/[APP_NAME]</RepositoryUrl>
+    <RepositoryUrl>https://github.com/openus-dotnet/$()</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
