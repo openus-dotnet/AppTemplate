@@ -37,8 +37,13 @@ def replace_in_path(current_path, old_str, new_str):
             replace_in_file(new_file_path, old_str, new_str)
 
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <new_string>")
+        sys.exit(1)
+
+    new_string = sys.argv[1]
+
     old_string = "[APP_NAME]"
-    new_string = "NEW_APP"
     current_directory = os.getcwd()
 
     replace_in_path(current_directory, old_string, new_string)
