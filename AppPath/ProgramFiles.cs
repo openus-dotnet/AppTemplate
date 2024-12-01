@@ -1,4 +1,4 @@
-﻿namespace Openus.[APP_NAME].AppPath
+﻿namespace Openus.__APP_NAME__.AppPath
 {
     public static class ProgramFiles
     {

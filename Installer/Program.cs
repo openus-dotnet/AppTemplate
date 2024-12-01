@@ -6,7 +6,7 @@ using System.IO.Compression;
 using System.Net.Http;
 using System.Runtime.Versioning;
 using System.Threading.Tasks;
-using Openus.[APP_NAME].AppPath;
+using Openus.__APP_NAME__.AppPath;
 
 namespace Openus.Installer
 {

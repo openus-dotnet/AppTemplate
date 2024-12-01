@@ -1,3 +1,3 @@
-# [APP_NAME]
+# __APP_NAME__
 
 [APP_DESCRIPTION]

@@ -1,4 +1,5 @@
 import os
+import sys
 
 def replace_in_file(file_path, old_str, new_str):
     try:
@@ -43,7 +44,7 @@ if __name__ == "__main__":
 
     new_string = sys.argv[1]
 
-    old_string = "[APP_NAME]"
+    old_string = "__APP_NAME__"
     current_directory = os.getcwd()
 
     replace_in_path(current_directory, old_string, new_string)
